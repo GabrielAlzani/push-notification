@@ -65,15 +65,11 @@
 		};
 		EE9A9C902E45352D00104A5A /* Push-NotificationTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "Push-NotificationTests";
 			sourceTree = "<group>";
 		};
 		EE9A9C9A2E45352D00104A5A /* Push-NotificationUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "Push-NotificationUITests";
 			sourceTree = "<group>";
 		};
@@ -117,7 +113,6 @@
 				9EB024E3D9835BD2C7A98726 /* Pods-Push-NotificationTests.debug.xcconfig */,
 				38C45C93273EBDB99AC9B95F /* Pods-Push-NotificationTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -300,9 +295,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Push-Notification/Pods-Push-Notification-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Push-Notification/Pods-Push-Notification-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -317,9 +316,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Push-Notification-Push-NotificationUITests/Pods-Push-Notification-Push-NotificationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Push-Notification-Push-NotificationUITests/Pods-Push-Notification-Push-NotificationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
